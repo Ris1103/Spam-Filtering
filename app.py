@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 import pickle
 
 tokenizer = pickle.load(open('models/cv.pkl', 'rb'))
